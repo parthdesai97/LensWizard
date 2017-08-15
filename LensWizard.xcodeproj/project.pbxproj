@@ -7,21 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2462CA201F2748A5001A026E /* Quicksand-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2462CA1E1F274895001A026E /* Quicksand-Regular.ttf */; };
+		2491A4621F3D64AC002BAFBF /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2491A4611F3D64AB002BAFBF /* Inceptionv3.mlmodel */; };
+		2499D9A51F274F1F006ED807 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2499D9A41F274F1F006ED807 /* MainMenu.swift */; };
 		24B5395A1F26B9C500090587 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B539591F26B9C500090587 /* AppDelegate.swift */; };
-		24B5395C1F26B9C500090587 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5395B1F26B9C500090587 /* ViewController.swift */; };
+		24B5395C1F26B9C500090587 /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24B5395B1F26B9C500090587 /* CameraViewController.swift */; };
 		24B5395F1F26B9C500090587 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B5395D1F26B9C500090587 /* Main.storyboard */; };
 		24B539611F26B9C500090587 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24B539601F26B9C500090587 /* Assets.xcassets */; };
 		24B539641F26B9C500090587 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24B539621F26B9C500090587 /* LaunchScreen.storyboard */; };
+		80EF9F7AF1AB095BD4930725 /* Pods_LensWizard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 645432FEF8BEBF29F059AD90 /* Pods_LensWizard.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		198DEB83469AA4B2378540DC /* Pods-LensWizard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LensWizard.release.xcconfig"; path = "Pods/Target Support Files/Pods-LensWizard/Pods-LensWizard.release.xcconfig"; sourceTree = "<group>"; };
+		2462CA1E1F274895001A026E /* Quicksand-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Quicksand-Regular.ttf"; sourceTree = "<group>"; };
+		2491A4611F3D64AB002BAFBF /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = Inceptionv3.mlmodel; path = ../Inceptionv3.mlmodel; sourceTree = "<group>"; };
+		2499D9A41F274F1F006ED807 /* MainMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
 		24B539561F26B9C500090587 /* LensWizard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LensWizard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		24B539591F26B9C500090587 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		24B5395B1F26B9C500090587 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		24B5395B1F26B9C500090587 /* CameraViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		24B5395E1F26B9C500090587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		24B539601F26B9C500090587 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		24B539631F26B9C500090587 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		24B539651F26B9C500090587 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5F22675E69D5883C61A6B3A5 /* Pods-LensWizard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LensWizard.debug.xcconfig"; path = "Pods/Target Support Files/Pods-LensWizard/Pods-LensWizard.debug.xcconfig"; sourceTree = "<group>"; };
+		645432FEF8BEBF29F059AD90 /* Pods_LensWizard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LensWizard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				80EF9F7AF1AB095BD4930725 /* Pods_LensWizard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2462CA1F1F27489A001A026E /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				2462CA1E1F274895001A026E /* Quicksand-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		2479667B1F26E03B00364E08 /* CoreML Models */ = {
+			isa = PBXGroup;
+			children = (
+				2491A4611F3D64AB002BAFBF /* Inceptionv3.mlmodel */,
+			);
+			name = "CoreML Models";
+			path = "New Group";
+			sourceTree = "<group>";
+		};
 		24B5394D1F26B9C500090587 = {
 			isa = PBXGroup;
 			children = (
 				24B539581F26B9C500090587 /* LensWizard */,
 				24B539571F26B9C500090587 /* Products */,
+				D9C069786CD3E7DC4FB03F1C /* Pods */,
+				C4414FB06F10D2733A7C9089 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +84,34 @@
 		24B539581F26B9C500090587 /* LensWizard */ = {
 			isa = PBXGroup;
 			children = (
+				2479667B1F26E03B00364E08 /* CoreML Models */,
+				2462CA1F1F27489A001A026E /* Fonts */,
 				24B539591F26B9C500090587 /* AppDelegate.swift */,
-				24B5395B1F26B9C500090587 /* ViewController.swift */,
+				2499D9A41F274F1F006ED807 /* MainMenu.swift */,
+				24B5395B1F26B9C500090587 /* CameraViewController.swift */,
 				24B5395D1F26B9C500090587 /* Main.storyboard */,
 				24B539601F26B9C500090587 /* Assets.xcassets */,
 				24B539621F26B9C500090587 /* LaunchScreen.storyboard */,
 				24B539651F26B9C500090587 /* Info.plist */,
 			);
 			path = LensWizard;
+			sourceTree = "<group>";
+		};
+		C4414FB06F10D2733A7C9089 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				645432FEF8BEBF29F059AD90 /* Pods_LensWizard.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9C069786CD3E7DC4FB03F1C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5F22675E69D5883C61A6B3A5 /* Pods-LensWizard.debug.xcconfig */,
+				198DEB83469AA4B2378540DC /* Pods-LensWizard.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +121,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 24B539681F26B9C500090587 /* Build configuration list for PBXNativeTarget "LensWizard" */;
 			buildPhases = (
+				7C8F70073589427F45D2FC40 /* [CP] Check Pods Manifest.lock */,
 				24B539521F26B9C500090587 /* Sources */,
 				24B539531F26B9C500090587 /* Frameworks */,
 				24B539541F26B9C500090587 /* Resources */,
+				D07B9F6D5EF25F1EC0128593 /* [CP] Embed Pods Frameworks */,
+				16C67FAB3EC5880A23A89ACA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,18 +178,69 @@
 				24B539641F26B9C500090587 /* LaunchScreen.storyboard in Resources */,
 				24B539611F26B9C500090587 /* Assets.xcassets in Resources */,
 				24B5395F1F26B9C500090587 /* Main.storyboard in Resources */,
+				2462CA201F2748A5001A026E /* Quicksand-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16C67FAB3EC5880A23A89ACA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LensWizard/Pods-LensWizard-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7C8F70073589427F45D2FC40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D07B9F6D5EF25F1EC0128593 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-LensWizard/Pods-LensWizard-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		24B539521F26B9C500090587 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24B5395C1F26B9C500090587 /* ViewController.swift in Sources */,
+				24B5395C1F26B9C500090587 /* CameraViewController.swift in Sources */,
+				2491A4621F3D64AC002BAFBF /* Inceptionv3.mlmodel in Sources */,
 				24B5395A1F26B9C500090587 /* AppDelegate.swift in Sources */,
+				2499D9A51F274F1F006ED807 /* MainMenu.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,8 +375,10 @@
 		};
 		24B539691F26B9C500090587 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5F22675E69D5883C61A6B3A5 /* Pods-LensWizard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COREML_CODEGEN_LANGUAGE = Swift;
 				DEVELOPMENT_TEAM = KF29YMGV9R;
 				INFOPLIST_FILE = LensWizard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -285,8 +391,10 @@
 		};
 		24B5396A1F26B9C500090587 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 198DEB83469AA4B2378540DC /* Pods-LensWizard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COREML_CODEGEN_LANGUAGE = Swift;
 				DEVELOPMENT_TEAM = KF29YMGV9R;
 				INFOPLIST_FILE = LensWizard/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -316,6 +424,7 @@
 				24B5396A1F26B9C500090587 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
